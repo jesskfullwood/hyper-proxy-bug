@@ -1,0 +1,18 @@
+[package]
+name = "hyper-proxy"
+version = "0.1.0"
+authors = ["jesskfulwood <jesskfulwood@gmail.com>"]
+
+[dependencies]
+configure = "0.1.1"
+env_logger = "0.5.12"
+futures = "0.1.23"
+http = "0.1.10"
+hyper = "0.12.8"
+hyper-tls = "0.3.0"
+log = "0.4.3"
+rustls = "0.13.0"
+tokio = "0.1.7"
+tokio-rustls = "0.7.1"
+tokio-tcp = "0.1.1"
+structopt = "0.2.10"
